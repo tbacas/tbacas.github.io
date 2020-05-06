@@ -325,7 +325,7 @@ $(function(){
     if (animation) {
 
       var text = $('#home .typer-title'),
-          textOne = "i'm a Data Scientist &amp Business Analyst",
+          textOne = "Data Science &amp Business Analysis",
           textTwo = "let's work together",
           textThree = "create value from your data";
 

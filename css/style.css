@@ -62,7 +62,7 @@ dfn, cite, em, i {
   	font-style: italic;
 }
 h1 {
-	font-size: 36px;
+	font-size: 30px;
 }
 h2 {
 	font-size: 26px;
@@ -130,7 +130,7 @@ img {
 }
 
 .mb-30 {
-    filter: grayscale(100%);
+    filter: grayscale(25%);
   	margin-bottom: 30px;
 }
 
@@ -306,8 +306,8 @@ Home
 .home-1 {
 	position: relative;
 	height: 50%;
-	min-height: 300px;
-	background-image: url(/img/background.png);
+	min-height: 400px;
+	background-image: url(/img/Banner2_2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -322,7 +322,7 @@ Home
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(0,0,0,0.68);
+	background-color: rgba(0,0,0,.20);
 	z-index: 0;
 }
 
@@ -385,10 +385,11 @@ Home
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 }
 #home h1 {
-	font-size: 34px;
-	margin: 36px 0 22px;
+	font-size: px;
+	margin: 36px 15% 25px 15%;
 	color: #fff;
 }
+
 #home .typer-title {
 	margin: 10px 0;
 	font-size: 22px;
@@ -636,6 +637,9 @@ Services
 	height: 1px;
 	background: #dfdfdf;
 }
+
+.service-icon img {max-height: 64px}
+
 .service-icon .fa {
     font-size: 44px;
     line-height: 70px;
@@ -1044,10 +1048,10 @@ Mediaqueries
 		width: 170px;
 	}
 	#home h1 {
-		font-size: 50px;
+		font-size: 30px;
 	}
 	#home .typer-title {
-		font-size: 26px;
+		font-size: 25px;
 	}
 
 	.home-slider-btn {
